@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+
+  --color-brand-bg: #f3f6fc;
+  --color-brand-dark: #1e293b;
+  --color-brand-muted: #64748b;
+  --color-brand-accent: #6366f1;
+  --animate-phys-x: bounceX 7.1s linear infinite alternate;
+  --animate-phys-y: bounceY 9.3s linear infinite alternate;
+  
+  @keyframes bounceX {
+    0% { left: 0; }
+    100% { left: calc(100% - 384px); } 
+  }
+  
+  @keyframes bounceY {
+    0% { top: 0; }
+    100% { top: calc(100% - 224px); }
+  }
+}
