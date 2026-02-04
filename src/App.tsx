@@ -48,7 +48,7 @@ function App() {
                              className="w-full h-full object-cover block" />
                     </div>
                 </div>
-            </div>
+            </div
 
         </div>
 
