@@ -1,4 +1,4 @@
-icmort { defineConfig } from 'vite'
+iccmort { defineConfig } from 'vite'
 ipmort react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
