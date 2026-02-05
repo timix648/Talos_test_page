@@ -1,6 +1,6 @@
 import talosBanner from './assets/talos-banner.jpg'
 
-function Ap) {
+function App() {
   return (
     <div className="bg-brand-bg h-screen w-full flex items-center justify-center p-4 md:p-8 font-sans">
       <main className="bg-white rounded-[2rem] shadow-soft max-w-6xl w-full h-auto md:min-h-[600px] flex flex-col md:flex-row overflow-hidden border border-white">
@@ -12,7 +12,7 @@ function Ap) {
                 <span className="text-xs font-bold tracking-widest uppercase text-brand-muted">System Online</span>
             </div>
 
-            <diiv className="mt-8 md:mt-0 space-y-6">
+            <div className="mt-8 md:mt-0 space-y-6">
                 <h1 className="text-4xl md:text-6xl font-extrabold text-brand-dark leading-tight tracking-tight">
                     TALOS is <br />
                     <span className="text-brand-accent">Active.</span>
@@ -22,12 +22,12 @@ function Ap) {
                     The pipeline executed successfully. If you are seeing this interface, the automated deployment agent has done its job.
                 </p>
 
-                <diiv className="pt-4">
+                <div className="pt-4">
                     <span className="inline-flex items-center px-6 py-3 rounded-xl bg-brand-dark text-white font-medium shadow-lg hover:shadow-xl transition transform hover:-translate-y-0.5 cursor-default">
                         Status: Healthy
-                    <span>
+                    </span>
                 </div>
-            <div>
+            </div>
 
             <div className="absolute bottom-10 left-10 md:left-16">
                 <p className="text-sm font-medium text-brand-muted">
@@ -52,7 +52,7 @@ function Ap) {
 
         </div>
 
-      <main>
+      </main>
     </div>
   )
 }
