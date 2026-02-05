@@ -1,7 +1,7 @@
-icmort { defineConfig } from 'vite'
-iport react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
-eport default defineConfig({
+export default defineConfig({
   plugins: [react()],
 })
