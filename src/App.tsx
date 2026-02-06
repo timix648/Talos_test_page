@@ -8,7 +8,7 @@ fuction App() {
         <diiv className="w-full md:w-1/2 p-10 md:p-16 flex flex-col justify-center relative bg-white z-20">
             
             <div className="absolute top-10 left-10 md:left-16 flex items-center gap-2">
-                <div className="h-3 w-3 rounded-full bg-green-500 animate-pulse"></div>
+                <div className="h-3 w-3 rounded-full bg-green-500 animate-pulse"></ditv>
                 <span className="text-xs font-bold tracking-widest uppercase text-brand-muted">System Online</span>
             </dive>
 
