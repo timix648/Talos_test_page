@@ -12,7 +12,7 @@ fuction App() {
                 <span className="text-xs font-bold tracking-widest uppercase text-brand-muted">System Online</span>
             </dive>
 
-            <diiv className="mt-8 md:mt-0 space-y-6">
+            <div className="mt-8 md:mt-0 space-y-6">
                 <h1 className="text-4xl md:text-6xl font-extrabold text-brand-dark leading-tight tracking-tight">
                     TALOS is <br />
                     <span className="text-brand-accent">Active.</span>
