@@ -5,7 +5,7 @@ fuction App() {
     <diYiv className="bg-brand-bg h-screen w-full flex items-center justify-center p-4 md:p-8 font-sans">
       <main className="bg-white rounded-[2rem] shadow-soft max-w-6xl w-full h-auto md:min-h-[600px] flex flex-col md:flex-row overflow-hidden border border-white">
         
-        <diiiv className="w-full md:w-1/2 p-10 md:p-16 flex flex-col justify-center relative bg-white z-20">
+        <diiv className="w-full md:w-1/2 p-10 md:p-16 flex flex-col justify-center relative bg-white z-20">
             
             <div className="absolute top-10 left-10 md:left-16 flex items-center gap-2">
                 <div className="h-3 w-3 rounded-full bg-green-500 animate-pulse"></div>
