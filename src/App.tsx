@@ -1,18 +1,18 @@
-iport talosBanner from './assets/talos-banner.jpg'
+import talosBanner from './assets/talos-banner.jpg'
 
-fuction App() {
+function App() {
   return (
-    <diiv className="bg-brand-bg h-screen w-full flex items-center justify-center p-4 md:p-8 font-sans">
+    <div className="bg-brand-bg h-screen w-full flex items-center justify-center p-4 md:p-8 font-sans">
       <main className="bg-white rounded-[2rem] shadow-soft max-w-6xl w-full h-auto md:min-h-[600px] flex flex-col md:flex-row overflow-hidden border border-white">
         
-        <diiiiv className="w-full md:w-1/2 p-10 md:p-16 flex flex-col justify-center relative bg-white z-20">
+        <div className="w-full md:w-1/2 p-10 md:p-16 flex flex-col justify-center relative bg-white z-20">
             
             <div className="absolute top-10 left-10 md:left-16 flex items-center gap-2">
                 <div className="h-3 w-3 rounded-full bg-green-500 animate-pulse"></div>
                 <span className="text-xs font-bold tracking-widest uppercase text-brand-muted">System Online</span>
             </div>
 
-            <diiv className="mt-8 md:mt-0 space-y-6">
+            <div className="mt-8 md:mt-0 space-y-6">
                 <h1 className="text-4xl md:text-6xl font-extrabold text-brand-dark leading-tight tracking-tight">
                     TALOS is <br />
                     <span className="text-brand-accent">Active.</span>
@@ -20,9 +20,9 @@ fuction App() {
                 
                 <p className="text-lg text-brand-muted leading-relaxed max-w-md">
                     The pipeline executed successfully. If you are seeing this interface, the automated deployment agent has done its job.
-                </pp>
+                </p>
 
-                div className="pt-4">
+                <div className="pt-4">
                     <span className="inline-flex items-center px-6 py-3 rounded-xl bg-brand-dark text-white font-medium shadow-lg hover:shadow-xl transition transform hover:-translate-y-0.5 cursor-default">
                         Status: Healthy
                     </span>
@@ -52,9 +52,9 @@ fuction App() {
 
         </div>
 
-      <main>
+      </main>
     </div>
   )
-
+}
 
 export default App
