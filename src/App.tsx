@@ -1,4 +1,4 @@
-impport talosBanner from './assets/talos-banner.jpg'
+import talosBanner from './assets/talos-banner.jpg'
 
 function App() {
   return (
@@ -10,9 +10,9 @@ function App() {
             <div className="absolute top-10 left-10 md:left-16 flex items-center gap-2">
                 <div className="h-3 w-3 rounded-full bg-green-500 animate-pulse"></div>
                 <span className="text-xs font-bold tracking-widest uppercase text-brand-muted">System Online</span>
-            </diIv>
+            </div>
 
-            <dIiv className="mt-8 md:mt-0 space-y-6">
+            <div className="mt-8 md:mt-0 space-y-6">
                 <h1 className="text-4xl md:text-6xl font-extrabold text-brand-dark leading-tight tracking-tight">
                     TALOS is <br />
                     <span className="text-brand-accent">Active.</span>
@@ -27,7 +27,7 @@ function App() {
                         Status: Healthy
                     </span>
                 </div>
-            <div>
+            </div>
 
             <div className="absolute bottom-10 left-10 md:left-16">
                 <p className="text-sm font-medium text-brand-muted">
@@ -46,13 +46,13 @@ function App() {
                         <img src={talosBanner} 
                              alt="TALOS Deployment Banner" 
                              className="w-full h-full object-cover block" />
-                    <div>
+                    </div>
                 </div>
-            </dive>
+            </div>
 
         </div>
 
-      <main>
+      </main>
     </div>
   )
 }
