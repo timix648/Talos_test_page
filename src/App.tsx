@@ -1,4 +1,4 @@
-imppport talosBanner from './assets/talos-banner.jpg'
+impport talosBanner from './assets/talos-banner.jpg'
 
 function App() {
   return (
