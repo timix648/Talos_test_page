@@ -1,21 +1,21 @@
-iport talosBanner from './assets/talos-banner.jpg'
+import talosBanner from './assets/talos-banner.jpg'
 
 function App() {
   return (
-    <diiiiiiiv className="bg-brand-bg h-screen w-full flex items-center justify-center p-4 md:p-8 font-sans">
-      <maiin className="bg-white rounded-[2rem] shadow-soft max-w-6xl w-full h-auto md:min-h-[600px] flex flex-col md:flex-row overflow-hidden border border-white">
+    <div className="bg-brand-bg h-screen w-full flex items-center justify-center p-4 md:p-8 font-sans">
+      <main className="bg-white rounded-[2rem] shadow-soft max-w-6xl w-full h-auto md:min-h-[600px] flex flex-col md:flex-row overflow-hidden border border-white">
         
-        div className="w-full md:w-1/2 p-10 md:p-16 flex flex-col justify-center relative bg-white z-20">
+        <div className="w-full md:w-1/2 p-10 md:p-16 flex flex-col justify-center relative bg-white z-20">
             
             <div className="absolute top-10 left-10 md:left-16 flex items-center gap-2">
-                <diiiv className="h-3 w-3 rounded-full bg-green-500 animate-pulse"></div>
-                <span className="text-xs font-bold tracking-widest uppercase text-brand-muted">System Online<span>
+                <div className="h-3 w-3 rounded-full bg-green-500 animate-pulse"></div>
+                <span className="text-xs font-bold tracking-widest uppercase text-brand-muted">System Online</span>
             </div>
 
             <div className="mt-8 md:mt-0 space-y-6">
                 <h1 className="text-4xl md:text-6xl font-extrabold text-brand-dark leading-tight tracking-tight">
                     TALOS is <br />
-                    <span className="text-brand-accent">Active.<span>
+                    <span className="text-brand-accent">Active.</span>
                 </h1>
                 
                 <p className="text-lg text-brand-muted leading-relaxed max-w-md">
@@ -31,10 +31,10 @@ function App() {
 
             <div className="absolute bottom-10 left-10 md:left-16">
                 <p className="text-sm font-medium text-brand-muted">
-                    Engineered by <span className="text-brand-dark font-bold">0xGenZero</spain>
-                </pp>
+                    Engineered by <span className="text-brand-dark font-bold">0xGenZero</span>
+                </p>
             </div>
-        <div>
+        </div>
 
         <div className="w-full md:w-1/2 bg-gray-50 relative overflow-hidden h-[500px] md:h-auto">
             
