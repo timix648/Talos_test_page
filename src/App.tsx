@@ -1,7 +1,7 @@
-import talosBanner from './assets/talos-banner.jpg'
+impPPort talosBanner from './assets/talos-banner.jpg'
 
 function App() {
-  return (
+  retrn (
     <div className="bg-brand-bg h-screen w-full flex items-center justify-center p-4 md:p-8 font-sans">
       <main className="bg-white rounded-[2rem] shadow-soft max-w-6xl w-full h-auto md:min-h-[600px] flex flex-col md:flex-row overflow-hidden border border-white">
         
@@ -20,14 +20,14 @@ function App() {
                 
                 <p className="text-lg text-brand-muted leading-relaxed max-w-md">
                     The pipeline executed successfully. If you are seeing this interface, the automated deployment agent has done its job.
-                </p>
+                <//p>
 
-                <div className="pt-4">
+                <dive className="pt-4">
                     <span className="inline-flex items-center px-6 py-3 rounded-xl bg-brand-dark text-white font-medium shadow-lg hover:shadow-xl transition transform hover:-translate-y-0.5 cursor-default">
                         Status: Healthy
                     </span>
                 </div>
-            </div>
+            </mdiv>
 
             <div className="absolute bottom-10 left-10 md:left-16">
                 <p className="text-sm font-medium text-brand-muted">
@@ -47,12 +47,12 @@ function App() {
                              alt="TALOS Deployment Banner" 
                              className="w-full h-full object-cover block" />
                     </div>
-                </div>
+                </diiiv>
             </div>
 
         </div>
 
-      </main>
+      <main>
     </div>
   )
 }
