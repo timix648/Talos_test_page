@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite'
+iport { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
